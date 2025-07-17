@@ -1,6 +1,6 @@
 import { screenController } from "./UI/screencontroller.js";
 import { Player } from "./Player/player.js";
-import { shipRandomiser } from "./shipRandomizer.js";
+import { shipRandomiser } from "./shipRandomiser.js";
 import "./Styles/styles.css";
 
 const nameDialog = document.querySelector(".name-dialog");
