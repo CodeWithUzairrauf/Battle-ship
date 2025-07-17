@@ -1,0 +1,34 @@
+{
+  "name": "battle-ship",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --mode production",
+    "dev": "webpack serve --config webpack.dev.js",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "babel-jest": "^30.0.4",
+    "cli": "^1.0.1",
+    "css-loader": "^7.1.2",
+    "html-loader": "^5.1.0",
+    "webpack": "^5.100.2",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "@eslint/js": "^9.31.0",
+    "enlist": "^0.1.0",
+    "html": "^1.0.0",
+    "html-webpack-plugin": "^5.6.3",
+    "loader": "^2.1.1",
+    "style-loader": "^4.0.0",
+    "webpack-dev-server": "^5.2.2"
+  }
+}
